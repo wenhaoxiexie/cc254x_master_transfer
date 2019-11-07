@@ -1,0 +1,5 @@
+---- order_TaskID Matches (4 in 1 files) ----
+Order.c (e:\project\cc2541_transf\my_center\projects\ble\simpleblecentral\source):static uint8 order_TaskID;  
+Order.c (e:\project\cc2541_transf\my_center\projects\ble\simpleblecentral\source):  order_TaskID = task_id;     
+Order.c (e:\project\cc2541_transf\my_center\projects\ble\simpleblecentral\source):    if ( (pMsg = osal_msg_receive( order_TaskID )) != NULL )  
+Order.c (e:\project\cc2541_transf\my_center\projects\ble\simpleblecentral\source):      osal_start_timerEx( order_TaskID, bps_data_event,100);
